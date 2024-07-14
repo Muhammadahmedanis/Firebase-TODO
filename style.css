@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-style: italic;
+    padding-top: 40px;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: -4px;
+}
+.fa-square-pen{
+    font-size: 30px;
+}
+.container2{
+    height: 100vh;
+    background: linear-gradient(68.4deg, rgb(248 182 204 / 52%) 0.5%, rgb(192 198 230 / 45%) 49%, rgb(225, 246, 240) 99.8%);
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    min-height: 40px;
+    max-width: 400px;
+    margin: auto !important;
+    padding: 10px 19px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+#inp{
+    padding: 10px 15px;
+    border-radius: 32px;
+    width: 320px;
+    border: none;
+    outline: none;
+}
+#addBtn{
+    width: 90px;
+    padding: 6px 10px 10px 13px;
+    border-radius: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: -17%;
+    border: none;
+    outline: none;
+}
+@media (max-width: 450px) {
+    #addBtn{
+        width: 65px;
+    }
+}
+ul{
+    margin: 10px 0px !important;
+    padding: 0 !important;
+}
+li{
+    list-style: decimal-leading-zero;
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    padding: 4px !important;
+}
+.del, .upd{
+    background: linear-gradient(68.4deg, rgb(248 182 204 / 0%) 0.5%, rgb(192 198 230 / 0%) 49%, rgb(225 246 240 / 0%) 99.8%) !important;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: white;
+    font-size: 20px;
+    float: right;
+    padding: 0 5px;
+    margin-right: 0px;
+}
+#loader{
+    font-size: 25px;
+}
