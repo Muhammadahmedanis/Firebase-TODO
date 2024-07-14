@@ -48,7 +48,10 @@ h1{
 }
 @media (max-width: 450px) {
     #addBtn{
-        width: 65px;
+        width: 65px !important;
+    }
+    #inp{
+        width: 285px !important;
     }
 }
 ul{
