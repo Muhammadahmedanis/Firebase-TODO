@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
-import { getFirestore, doc, collection, addDoc, getDocs, getDoc, updateDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.js";
+import { getFirestore, doc, collection, addDoc, getDocs, getDoc, updateDoc, deleteDoc, onSnapshot, serverTimestamp,  query, orderBy, where } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.js";
 const firebaseConfig = {
     apiKey: "AIzaSyDUe74FxI3Tn-hKCTDHmbpflEHfOg9zXC0",
     authDomain: "todo-2024d.firebaseapp.com",
@@ -21,7 +21,12 @@ export{
     getDocs,
     updateDoc,
     deleteDoc,
-    getDoc
+    getDoc, 
+    onSnapshot,
+    serverTimestamp,
+    query,
+    orderBy,
+    where,
 }
 
 
